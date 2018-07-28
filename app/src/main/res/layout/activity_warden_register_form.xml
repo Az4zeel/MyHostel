@@ -18,6 +18,12 @@ android:orientation="vertical"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="REGISTRATION FORM"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Enter your name"
         android:textSize="20dp"/>
 
@@ -37,12 +43,29 @@ android:orientation="vertical"
     android:layout_width="332dp"
     android:layout_height="wrap_content"
     android:id="@+id/B"
-    android:hint="Password" />
+    android:hint="Password"
+        />
     <TextView
         android:layout_width="wrap_content"
-        android:lout_height="wrap_contentay"
-        android:text="Date of Birth"
+        android:layout_height="wrap_content"
+        android:text="Sex"
         android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/rd1"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:id="@+id/rd2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textSize="20dp"
+        />
     <DatePicker
         android:layout_width="wrap_content"
         android:layout_height="100dp"></DatePicker>
