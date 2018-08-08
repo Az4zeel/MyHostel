@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_warden"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Warden">
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Student Details"
+        android:id="@+id/teacherButton"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Mess BIll"
+        android:id="@+id/MB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Room Status"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:id="@+id/RS"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/teacherButton"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="outpass"
+        android:id="@+id/OP"
+        android:layout_alignTop="@+id/MB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp" />
+</RelativeLayout>
