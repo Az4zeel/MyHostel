@@ -1,23 +1,26 @@
 package com.myhostel;
 
 public class WardenRegDetails {
-    String name;
+    String email;
     String password;
     String gender;
+    String name;
 
-    public WardenRegDetails(){
 
-    }
-
-    public WardenRegDetails(String name, String password, String gender){
-        this.name = name;
+    public WardenRegDetails(String email, String password, String gender, String name){
+        this.email = email;
         this.password = password;
         this.gender = gender;
+        this.name = name;
 
     }
 
     public String getName() {
         return name;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     public String getPassword() {
