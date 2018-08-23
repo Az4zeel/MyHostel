@@ -24,7 +24,8 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:hint="Enter username" />
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"/>
 
         <EditText
 
@@ -37,17 +38,17 @@
 
         <Button
             android:id="@+id/Hbtn3"
-            android:background="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/shape2"
             android:text="Login" />
 
         <Button
             android:id="@+id/Hbtn4"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/shape2"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
             android:layout_width="match_parent"

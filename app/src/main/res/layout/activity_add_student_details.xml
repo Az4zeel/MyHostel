@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_faculty_warden_register_form"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".FacultyWardenRegisterForm">
+    tools:context=".AddStudentDetails">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -42,7 +41,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:layout_width="339dp"
+                android:layout_width="match_parent"
                 android:layout_height="52dp"
                 android:id="@+id/C"
                 android:hint="@string/email"
@@ -84,6 +83,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Enter your room number"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="339dp"
+                android:layout_height="52dp"
+                android:id="@+id/E"
+                android:hint="Room number" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your roll number"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="339dp"
+                android:layout_height="52dp"
+                android:id="@+id/F"
+                android:hint="Roll number" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Date of Birth"
                 android:textSize="20dp"
                 />
@@ -101,6 +122,17 @@
                 android:layout_height="match_parent"
                 android:id="@+id/spinner1">
             </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textSize="20dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner2">
+            </Spinner>
 
             <Button
                 android:layout_marginTop="10dp"
@@ -108,7 +140,7 @@
                 android:layout_height="60dp"
                 android:text="Register"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp"
+                android:textSize="30dp"
                 android:background="@drawable/shape2"
                 android:id="@+id/Hbtn6" />
 

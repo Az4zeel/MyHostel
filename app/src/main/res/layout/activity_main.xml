@@ -14,13 +14,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/colorPrimary"
         android:id="@+id/Hbtn2"
         android:text="Faculty Warden"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
-        android:layout_marginBottom="37dp"
-        />
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/shape2"/>
 
     <Button
         android:text="Warden"
@@ -28,8 +28,8 @@
         android:layout_height="100dp"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape2"
         android:layout_marginBottom="55dp"
-        android:id="@+id/Hbtn1"
-        />
+        android:theme="@style/PrimaryFlatButton"
+        android:id="@+id/Hbtn1" />
 </LinearLayout>

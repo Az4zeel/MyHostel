@@ -8,13 +8,13 @@
     tools:context=".WardenRegisterForm">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        >
+        android:layout_height="fill_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:weightSum="1">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -29,10 +29,23 @@
                 android:textSize="20dp"/>
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="339dp"
+                android:layout_height="52dp"
+                android:id="@+id/nameid"
+                android:hint="@string/username"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your email"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="339dp"
                 android:layout_height="52dp"
                 android:id="@+id/A"
-                android:hint="@string/username" />
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,10 +54,11 @@
                 android:textSize="20dp"/>
             <EditText
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="339dp"
+                android:layout_height="52dp"
                 android:id="@+id/B"
-                android:hint="Password" />
+                android:hint="Password"
+                android:inputType="textPassword"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,21 +78,26 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Female" />
             </RadioGroup>
+
+            <DatePicker
+                android:id="@+id/DP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></DatePicker>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date of Birth"
                 android:textSize="20dp"
                 />
-            <DatePicker
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/DP"></DatePicker>
+
             <Button
                 android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:background="@drawable/shape2"
                 android:text="Register"
+                android:textSize="30sp"
                 android:id="@+id/D"/>
 
         </LinearLayout>

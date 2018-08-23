@@ -12,10 +12,10 @@
 
     <Button
         android:layout_width="400dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Student Details"
-        android:id="@+id/teacherButton"
-        android:background="@color/colorPrimary"
+        android:id="@+id/studentdetails"
+        android:background="@drawable/shape2"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:layout_alignParentTop="true"
@@ -25,38 +25,38 @@
     <Button
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape2"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:layout_width="400dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Mess BIll"
-        android:id="@+id/MB"
+        android:id="@+id/messbill"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp" />
 
     <Button
         android:layout_width="400dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Room Status"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape2"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
-        android:id="@+id/RS"
+        android:id="@+id/roomstatus"
         android:layout_marginTop="34dp"
-        android:layout_below="@+id/teacherButton"
+        android:layout_below="@+id/studentdetails"
         android:layout_alignParentStart="true" />
     <Button
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape2"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:layout_width="400dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="outpass"
-        android:id="@+id/OP"
-        android:layout_alignTop="@+id/MB"
+        android:id="@+id/outpass"
+        android:layout_alignTop="@+id/messbill"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="340dp" />
 </RelativeLayout>
